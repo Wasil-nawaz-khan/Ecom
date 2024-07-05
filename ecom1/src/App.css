@@ -1,0 +1,123 @@
+/* Navbar styles */
+nav{
+  background-color: yellowgreen;
+  padding: 20px;
+}
+
+button {
+  margin-left: 30px;
+  padding: 10px;
+  background-color: white;
+  color: red;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 900;
+  border: 3px solid red;
+  border-radius: 30px;
+  transition: 0.7s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover{
+
+  background-color: red;
+  color: white;
+  border: 3px solid black;
+}
+
+
+/* Products styles */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 150px;
+  height: auto;
+}
+
+.product-item button{
+  background-color: green;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.product-item button :hover{
+  cursor: pointer;
+}
+
+
+h2{
+  color: red;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline 5px solid yellowgreen;
+}
+
+p{
+  text-align: center;
+  font-size: 20px;
+}
+
+#formdiv{
+  text-align: center;
+}
+
+form{
+  border: 2px solid red;
+  max-width: 30%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+form input{
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid red;
+}
+
+form button{
+ 
+  margin: auto;
+  margin-top: 20px;
+}
+
+#cartdiv{
+  text-align: left;
+}
+
+#cartdiv button{
+  margin: 0;
+}
+
+#cartdiv li{
+  list-style-type: none;
+}
+
+.cartcard{
+  text-align: center;
+}
+
+.cartcard li{
+  border: 1px solid red;
+  padding: 20px;
+  margin-right: 10px;
+  max-width: 20%;
+  display: inline-block;
+
+}
+
+.cartcard img{
+  min-height: 200px;
+  min-width: 200px;
+}
